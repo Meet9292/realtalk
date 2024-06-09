@@ -8,8 +8,8 @@ app.get('/',(req,res)=>{
     res.send("Hello This is from GET")
 })
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT,()=>{
-    console.log("Server Running on 3000");
+    console.log("Server Running on "+ PORT);
 })
